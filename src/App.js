@@ -1,5 +1,7 @@
 import React from 'react'
 import Login from './components/Login';
+//import Button from './components/Button';
+import './App.css';
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div>
       <h1> ÖĞRENCİ BİLGİ SİSTEMİ/ÖĞRENCİ</h1>
       <Login/>
+  
     </div>
   )
 }
