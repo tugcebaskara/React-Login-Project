@@ -11,7 +11,7 @@ import React from 'react';
 
 function Login() {
  return (
-    <div>
+    <div className='login'>
       <form>
         <input type='text'
          maxLength="9"
@@ -30,21 +30,23 @@ function Login() {
         maxLength="20">
         </input>
       </form>
-      <br/>
-      <form>
+      <br/> 
+       <form>
       <button type='submit'
       className='still'>
         Giriş
         </button>
+        <form>
         <button type='submit'
         className='still2'>
           Şifremi Unuttum
         </button>
+        </form>
         <br/>
         <br/>
         <br/>
         </form>
-        <p> UZEM anasayfasına erişmek için aşağıdaki butona tıklayınız...</p>
+        <p className='instruction'> UZEM anasayfasına erişmek için aşağıdaki butona tıklayınız...</p>
         <form>
         <button>
           UZEM ANASAYFA

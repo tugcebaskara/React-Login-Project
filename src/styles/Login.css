@@ -1,17 +1,35 @@
 input{
     width: 190px;
     height: 25px;
-   background-color:rgb(255, 255, 255)
+   background-color:rgb(255, 255, 255);
+   border-radius: 5px;
+   
+}
+
+div .login{
+    text-align: center;
+    border:3px solid rgb(234, 234, 234);
+	width:200px;
+	height:200px;
+    margin: auto;
+    border-radius: 5px;
 }
 
 button{
     margin: 10px;
     text-align: center;
+    border-radius: 4px;
 }
+
 form{
+    border-radius: 5px;
     text-align: center;
+    
 }
 
 p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
     text-align: center;
 }
