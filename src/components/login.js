@@ -1,12 +1,17 @@
+import { render } from '@testing-library/react';
 import React from 'react';
  
-//var uyarı=0
-//if(uyarı < 0){
-  //alert("9 numaralı öğrenci numaranızı girin")
-//}
  
 //6LcB-_EjAAAAAMLHJTT2RUl5XWCAq3zWBvbX8fTi
 //6LcB-_EjAAAAACiVaTv90gDDfezGvxIYvpoEnaD6
+
+function clear(){
+  localStorage.clear();
+}
+
+function uyari(){
+  alert('9 Haneli Öğrenci Numaranızı Giriniz')
+} 
 
 
 function Login() {
@@ -16,12 +21,12 @@ function Login() {
         <input type='text'
          maxLength="9"
          minLength="9"
-         required=""
          //value={this.state.id1}
          placeholder='Öğrenci Numarası'
-         >
-        </input>
-      </form>
+         onClick={uyari}
+         required>
+         </input>
+      </form >
       <br/>
       <form>
         <input type='password'
@@ -38,7 +43,9 @@ function Login() {
         </button>
         <form>
         <button type='submit'
-        className='still2'>
+        id='şifremiunuttum'
+        className='still2'
+        required>
           Şifremi Unuttum
         </button>
         </form>

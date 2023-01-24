@@ -1,4 +1,5 @@
 input{
+    float: 15px;
     width: 190px;
     height: 25px;
    background-color:rgb(255, 255, 255);
@@ -8,11 +9,11 @@ input{
 
 div .login{
     text-align: center;
-    border:3px solid rgb(234, 234, 234);
-	width:200px;
-	height:200px;
+    border:1.50px solid rgb(175, 175, 175);
+	width:300px;
+	height: 250px;
     margin: auto;
-    border-radius: 5px;
+    border-radius:5px;
 }
 
 button{
@@ -24,12 +25,10 @@ button{
 form{
     border-radius: 5px;
     text-align: center;
-    
 }
 
 p{
-    text-decoration: none;
     color: rgb(0, 0, 0);
     border-radius: 5px;
-    text-align: center;
+    text-align:unset
 }
