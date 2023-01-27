@@ -1,85 +1,81 @@
-import React from 'react';
- 
+import React from "react";
 
-//6LcB-_EjAAAAAMLHJTT2RUl5XWCAq3zWBvbX8fTi
-//6LcB-_EjAAAAACiVaTv90gDDfezGvxIYvpoEnaD6
+function Login(){
+ // const [ data, setData]= useState()
 
-//function clear(){
-  //localStorage.clear();{
+//clear = (e) => {
+  //localStorage.clear();
+//};
 
+//number = (e) => {
+    //if (this.state.number.lenght > 8) this.setStatenumber(e.target.value);
+//}
 
-//let yonlendırme = document.getElementById("p");
-//yonlendırme.innerHTML="MERHABA"
+    return (
+      <div className="number">
+        <form
+          method="POST"
+          //onSubmit={this.add}
+          // onSubmit={handleSubmit(e)}
+          id="kullanici">
 
-//let fullName = prompt("Lütfen Adınızı Giriniz : ")
-//let kullanıcı = document.querySelector("#kullanıcı")
+          <input
+            type="text"
+            //onChange={(e) => this.setState({ number: e.target.value })}
+            value={this.state.number}
+            maxLength="9"
+            minLength="9"
+            placeholder="Öğrenci Numarası"
+            //onClick={istek()}
+            required={""}
+          >
+          </input>
+        </form>
+        <br />
 
-//function istek()
-//{
-  //var kelime = prompt("Bir değer giriniz","lütfen sadece 9 numaralı öğrenci numaranızı giriniz..")
- // document.write(kelime)
-//} 
+        <form method="POST" onSubmit={this.add}>
+          <input
+            type="password"
+            //onChange={(e) => this.setState.number({ forgot: e.target.value })}
+            value={this.state.forgot}
+            placeholder="ÖBS Şifreniz"
+            maxLength="20"
+            required={""}
+          >
 
-//function uyari(){
-  //alert('9 Haneli Öğrenci Numaranızı Giriniz')
+          </input>
+        </form>
+        <br />
 
-//
-
-function Login() {
- return (
-    <div className='login'>
-      <form id='kullanici'>
-        <input type='text'
-         maxLength="9"
-         minLength="9"
-         //value={this.state.id1}
-         placeholder='Öğrenci Numarası'
-         //onClick={uyari()}
-         required={""}
-         //onLoad={istek()}
-         >
-         </input>
-      </form >
-      <br/>
-      <form>
-        <input type='password'
-        value={this.state.id2}
-        placeholder='ÖBS Şifreniz'
-        maxLength="20"
-        required={""}
-        >
-        </input>
-      </form>
-      <br/> 
-       <form>
-      <button type='submit'
-      className='still'
-      //onClick={() => this.setState({ enter: this.state.durum})}
-      >
-        Giriş
-        </button>
         <form>
-        <button type='submit'
-        id='şifremiunuttum'
-        className='still2'
-        >
-          Şifremi Unuttum
-        </button>
+          <button type="submit" className="still"
+          // onClick={this.number}
+          >
+            Giriş
+          </button>
+
+          <form>
+            <button
+              type="submit"
+              placeholder="Şifremi Sıfırla"
+              className="still2">
+           
+            </button>
+          </form>
+          <br />
+          <br />
+          <br />
         </form>
-        <br/>
-        <br/>
-        <br/>
-        </form>
-        <p className='instruction'
-        id='yonlendırme'> UZEM anasayfasına erişmek için aşağıdaki butona tıklayınız...</p>
+        <p className="instruction" id="yonlendırme">
+          UZEM anasayfasına erişmek için aşağıdaki butona tıklayınız...
+        </p>
         <form>
-        <button>
-          UZEM ANASAYFA
-        </button>
+          <button>UZEM ANASAYFA</button>
         </form>
-    </div>
+      </div>
+    );
+  }
 
-  )}
 
-  export default Login;
- 
+
+export default Login;
