@@ -1,11 +1,31 @@
 .still{
-    padding: 5px 20px;
+    padding: 10px 20px;
     color:white;
     background-color:rgba(94, 176, 230, 0.821);
+    text-align:right;
+    
     }
 
     .still2{
-        padding: 5px 30px;
+        padding: 10px 24px;
         color: white;
         background-color: rgba(227, 59, 59, 0.835);
+        text-align:left;
+    
     }
+
+    .still3{
+        padding: 5px 10spx;
+        background-color:rgb(80, 135, 230);
+        text-align: justify;
+        color: white;
+        font-size: 18px;
+    }
+
+
+   input{
+                width: 3px;
+                border: 3px rgb(255, 255, 255) #8e1d1d;
+                padding: 2px;
+   }
+

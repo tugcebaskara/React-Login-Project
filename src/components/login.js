@@ -22,7 +22,7 @@ function Login(){
           <input
             type="text"
             //onChange={(e) => this.setState({ number: e.target.value })}
-            value={this.state.number}
+            //value={this.state.number}
             maxLength="9"
             minLength="9"
             placeholder="Öğrenci Numarası"
@@ -33,11 +33,13 @@ function Login(){
         </form>
         <br />
 
-        <form method="POST" onSubmit={this.add}>
+        <form method="POST" 
+        //</div>onSubmit={this.add}
+        >
           <input
             type="password"
             //onChange={(e) => this.setState.number({ forgot: e.target.value })}
-            value={this.state.forgot}
+            //value={this.state.forgot}
             placeholder="ÖBS Şifreniz"
             maxLength="20"
             required={""}
@@ -51,26 +53,31 @@ function Login(){
           <button type="submit" className="still"
           // onClick={this.number}
           >
-            Giriş
+            GİRİŞ
           </button>
 
-          <form>
+
             <button
               type="submit"
-              placeholder="Şifremi Sıfırla"
+              placeholder="Şifremi Unuttum"
               className="still2">
-           
+               ŞİFREMİ UNUTTUM
             </button>
-          </form>
+
+
           <br />
           <br />
           <br />
+
         </form>
-        <p className="instruction" id="yonlendırme">
+        <center>
+        <p 
+        className="instruction" id="yonlendırme" >
           UZEM anasayfasına erişmek için aşağıdaki butona tıklayınız...
         </p>
+        </center>
         <form>
-          <button>UZEM ANASAYFA</button>
+          <button className="still3">UZEM ANASAYFA</button>
         </form>
       </div>
     );
