@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from './assets/koü.png'
 
-//import Logo from '../assets/koü.png'
 
 function Login(){
  // const [ data, setData]= useState()
@@ -67,7 +66,7 @@ function Login(){
             </button>
             </form>
             </form>
-            
+
         <center>
         <p 
         className="instruction" id="yonlendırme" >
