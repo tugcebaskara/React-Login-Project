@@ -1,4 +1,7 @@
 import React from "react";
+import Logo from './assets/koü.png'
+
+//import Logo from '../assets/koü.png'
 
 function Login(){
  // const [ data, setData]= useState()
@@ -12,12 +15,24 @@ function Login(){
 //}
 
     return (
-      <div className="number">
+      <div className="number"
+       align= 'center'>
+       <form>
+
         <form
+        className="login"
           method="POST"
           //onSubmit={this.add}
           // onSubmit={handleSubmit(e)}
-          id="kullanici">
+          >
+            <form>
+           <img src={Logo} alt="Logo"
+           width="150" height="75"/>
+           </form>
+           <br/>
+          <h1>
+          ÖĞRENCİ BİLGİ SİSTEMİ
+          </h1>
 
           <input
             type="text"
@@ -28,14 +43,8 @@ function Login(){
             placeholder="Öğrenci Numarası"
             //onClick={istek()}
             required={""}
-          >
-          </input>
-        </form>
-        <br />
-
-        <form method="POST" 
-        //</div>onSubmit={this.add}
-        >
+          />
+        
           <input
             type="password"
             //onChange={(e) => this.setState.number({ forgot: e.target.value })}
@@ -43,10 +52,11 @@ function Login(){
             placeholder="ÖBS Şifreniz"
             maxLength="20"
             required={""}
-          >
+          />
+         
 
-          </input>
-        </form>
+        
+        
         <br />
 
         <form>
@@ -63,21 +73,18 @@ function Login(){
               className="still2">
                ŞİFREMİ UNUTTUM
             </button>
-
-
-          <br />
-          <br />
-          <br />
-
-        </form>
+            </form>
+            </form>
         <center>
         <p 
         className="instruction" id="yonlendırme" >
           UZEM anasayfasına erişmek için aşağıdaki butona tıklayınız...
         </p>
         </center>
+      
         <form>
           <button className="still3">UZEM ANASAYFA</button>
+        </form>
         </form>
       </div>
     );
