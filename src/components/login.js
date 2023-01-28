@@ -18,7 +18,6 @@ function Login(){
       <div className="number"
        align= 'center'>
        <form>
-
         <form
         className="login"
           method="POST"
@@ -44,7 +43,6 @@ function Login(){
             //onClick={istek()}
             required={""}
           />
-        
           <input
             type="password"
             //onChange={(e) => this.setState.number({ forgot: e.target.value })}
@@ -53,10 +51,6 @@ function Login(){
             maxLength="20"
             required={""}
           />
-         
-
-        
-        
         <br />
 
         <form>
@@ -65,8 +59,6 @@ function Login(){
           >
             GİRİŞ
           </button>
-
-
             <button
               type="submit"
               placeholder="Şifremi Unuttum"
@@ -75,6 +67,7 @@ function Login(){
             </button>
             </form>
             </form>
+            
         <center>
         <p 
         className="instruction" id="yonlendırme" >

@@ -4,9 +4,6 @@
     background-color:rgba(94, 176, 230, 0.821);
     text-align:right;
     margin-top: 40px;
-  
-
-    
     }
 
     .still2{
@@ -14,7 +11,6 @@
         color: white;
         background-color: rgba(227, 59, 59, 0.835);
         text-align:left;
-    
     }
 
     .still3{
@@ -26,8 +22,7 @@
     }
 
 
-   input{
-             
+   input{  
          width: 5px;
          border: 3px rgb(255, 255, 255) #929292;
          padding: 2px;
@@ -40,8 +35,7 @@ form .login {
     height: 300px;
     width: 600px;
     border: 2px solid rgb(177, 177, 177); /* Kenar kalınlığı, şekli ve rengi */
-    padding: 70px;
-    
+    padding: 70px; 
 }
 
 h1{
@@ -54,14 +48,10 @@ div{
 }
 
 img{
-    
     position: relative;
-
     right: 650px;
     margin-top: 11px;
     text-align: center;
     position: fixed;
     top: 59px;
-  
-    
 }
